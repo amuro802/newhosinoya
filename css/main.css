@@ -1,0 +1,280 @@
+@charset "utf-8";
+/*메인슬라이더*/
+ 
+.mainSlider{
+    position: relative;
+    text-align: center;
+}
+.mainSlider img{
+    width: 100%;
+    z-index: 3;
+    display: block;
+}
+.mainSlider p{
+    position:absolute; 
+    left:50%; 
+    top: 50%;
+    transform:translateX(-50%);
+    font-family: "MapoFlowerIsland";
+    z-index: 4;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 10px;
+}
+.mainLogo{
+    
+}
+.mainLogo h1{
+    width: 100px;
+    
+    
+}
+.mainLogo h1 a{}
+.mainLogo h1 a img{
+    width: 50px;
+    position:absolute; 
+    left:50%; 
+    top: 35%;
+    transform:translateX(-50%);
+    z-index: 4;
+
+}
+
+/*메인컨텐츠01*/
+.mainCon01{
+    position: relative;
+     background: url(../images/sssssssssssssss.png)no-repeat;
+    overflow: hidden;
+}
+.con01Txt{
+    padding-top: 150px;
+    z-index: 20;
+}
+.box{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    
+    vertical-align: middle;
+    z-index: 10;
+    text-indent: -9999px;
+    margin-left: 10px;
+}
+.con01Txt h3{
+    display: inline-block;
+    font-size: 17px;
+    z-index: 1;
+    
+    vertical-align: middle;
+    margin-left: 10px;
+    font-family: "MapoFlowerIsland";
+}
+.con01Txt p{
+    width: 50%;
+    padding-left: 10px;
+    font-size: 14px;
+    z-index: 1;
+    text-align: left;
+    line-height:30px;
+    width: 100%;
+    font-family: "MapoFlowerIsland";
+    letter-spacing: -1px;
+}    
+.rBtn{
+    width: 50px;
+    
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+    position:absolute;
+    right: -10px;
+    top:40%;
+    
+    
+}
+.rBtn a{}
+.rBtn p{
+    font-size: 13px;
+    font-family: "NotoSans";
+    font-weight: 100;
+    background-color: #fff;
+    padding-left: 32px;
+    padding-right: 177px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    letter-spacing: 6px;
+}
+/*메인컨텐츠02*/
+.mainCon02{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.con02Img{
+    text-align: center;
+    
+}
+.con02Img li{
+    
+}
+.con02Img img{
+    width:100%;
+    
+}
+
+
+.sliderBtn{
+  
+}
+.sliderBtn li{}
+.sliderBtn prev{}
+.sliderBtn centerBtn{}
+.sliderBtn next{}
+
+
+/*maincon03*/
+.mainCon03{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    margin: 0 20px;
+}
+.con03Img{}
+.con03Img img{
+    width: 100%;
+}
+.con03Txt{
+    text-align: left;
+    position: absolute;
+    left:2%; 
+    top: 45%;
+    word-break: keep-all;
+    
+    letter-spacing: 2px;
+}
+
+.con03Txt p{
+    font-size: 13px;
+    color: #FFF;
+    font-family: "MapoFlowerIsland";
+    width: 100%;
+    word-break: keep-all;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  border: none;
+}
+
+.slide {
+  position: relative;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.panel {
+  width: 400%;
+}
+
+.panel:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.panel>li {
+  width: 25%;
+  
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+
+
+.dot:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.dot {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+}
+
+.dot>li {
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.dot>li.on {
+  background-color: #342f2f;
+}
+/*mainCon04*/
+.mainCon04{
+    margin-top: 50px;
+    
+}
+.con04Img{
+    text-align: center;
+    margin: 0 7%;
+}
+.con04Img li{
+    float: left;
+    width: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+}
+.con04Img li a{}
+.con04Img li img{
+    width: 100%;
+    position: relative;
+}
+
+.con04Img li p{
+    background: rgba(40,30,20,0.5);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 15px 0;
+    width: 100%;
+    font-family: "NotoSans";
+    
+}
